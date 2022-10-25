@@ -134,5 +134,6 @@ def cellularAutomaton(rulenum = 110, wraparound = True, columns = 120, mutation 
                 print()
                 print('out of frame')
                 return
-
+if __name__ == '__main__': cellularAutomaton(int(input('Rule (int): ')), 't' == input('Wraparound (T/F): ').lower()[0], int(input('Columns (int): ')), 't' == input('Mutation (True/False): ').lower())
+                                           
 
